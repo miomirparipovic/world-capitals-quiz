@@ -47,14 +47,33 @@ body {
 }
 
 .container {
-  width: 1000px;
+  width: 70rem;
+  height: 100vh;
   margin: 0 auto;
   border: 1px solid #f4538a;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .home-wrapper {
   display: flex;
-  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #f4538a;
+  flex-grow: 12;
+}
 
-  height: 100vh;
+.home-top {
+  flex-grow: 8;
+}
+
+.header-wrapper {
+  flex-grow: 1;
+  border: 1px solid #f4538a;
+}
+
+.footer-wrapper {
+  flex-grow: 1;
+  border: 1px solid #f4538a;
 }
