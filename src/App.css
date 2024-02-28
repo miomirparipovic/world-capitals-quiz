@@ -55,19 +55,6 @@ body {
   flex-flow: column nowrap;
 }
 
-.home-wrapper {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  gap: 1rem;
-  border: 1px solid #f4538a;
-  flex-grow: 12;
-}
-
-.home-top {
-  flex-grow: 8;
-}
-
 .header-wrapper {
   flex-grow: 1;
   border: 1px solid #f4538a;
