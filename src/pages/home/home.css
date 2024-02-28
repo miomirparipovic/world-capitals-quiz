@@ -1,0 +1,22 @@
+.home-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #f4538a;
+  flex-grow: 12;
+}
+
+.home-top {
+}
+
+.home-main {
+}
+
+.home-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}

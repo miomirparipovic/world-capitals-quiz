@@ -1,0 +1,66 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Custom CSS */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  width: 70rem;
+  height: 100vh;
+  margin: 0 auto;
+  border: 1px solid #f4538a;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.header-wrapper {
+  flex-grow: 1;
+  border: 1px solid #f4538a;
+}
+
+.footer-wrapper {
+  flex-grow: 1;
+  border: 1px solid #f4538a;
+}
