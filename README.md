@@ -15,4 +15,4 @@ This project is a React app where the primary goal is to create a fun and fully 
 #F4538A
 
 #fffecd
-#ffffbf;
+#ffffbf
